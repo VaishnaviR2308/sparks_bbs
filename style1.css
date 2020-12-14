@@ -1,0 +1,283 @@
+/* -- General Styling Rules --*/
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	background-image: url(images/background.png);
+	background-attachment: fixed;
+}
+
+nav
+{
+	background-color: #d4d06d;
+	height: 50px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+nav a
+{
+	float: right;
+	margin: 5px 10px;
+	font-size: 30px;
+	margin-right: 50px;
+	color: #000000;
+}
+
+h1
+{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 64px;
+	font-variant: small-caps;
+}
+
+p
+{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.hfont
+{
+	font-family: 'Lato', sans-serif;
+}
+
+/* -- Home Page -- */
+.art_home
+{
+	display: inline-block;
+	width: 550px;
+	height: 607px;
+}
+
+#h1home
+{
+	margin-top: 40%;
+	margin-left: 35%;
+	width: 150px;
+	text-align: center;
+	font-size: 64px;
+}
+
+#h2home
+{
+	margin-top: -12%;
+	margin-left: 25%;
+	width: 250px;
+	text-align: center;
+	font-size: 40px;
+	font-variant: small-caps;
+}
+
+#h3home
+{
+	margin-top: 0%;
+	margin-left: 20%;
+	width: 300px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+#cust
+{
+	float: right;
+	margin-top: 10%;
+	margin-right: 13%;
+	height: 300px;
+	width: 500px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10%;
+	box-shadow: all;
+}
+
+#cust:hover
+{
+	background-color: rgba(212, 208, 109, 0.5);
+}
+
+#cust a
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+	font-size: 30px;
+	margin-top: 25%;
+	margin-left: 20%;
+	
+	height: 45px;
+	width: 300px;
+	text-align: center;
+	padding-top: 7px;
+}
+
+#cust a:hover
+{
+	border-bottom: 7px groove #aaa122;
+}
+
+/* -- All Customers -- */
+
+.art_cust
+{
+	margin-left: 15%;
+	font-size: 25px;
+	width: 70%;
+	padding: 0.7%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10%;
+}
+
+.tcust
+{
+	margin: 5% 7.5%;
+	width: 85%;
+}
+
+.tcust th, td
+{
+	padding: 1%;
+}
+
+.tcust tr:first-child
+{
+	background-color: rgba(212, 208, 109, 0.7);
+}
+
+.tcust tr td:first-child
+{
+	padding: 0%;
+	text-align: center;
+}
+
+.tcust tr td:last-child
+{
+	text-align: right;
+}
+
+.tcust tr:hover
+{
+	background-color: rgba(212, 208, 109, 0.7);
+}
+
+.tcust a:hover
+{
+	border-bottom: 2px groove #aaa122;
+}
+
+/* -- All Transactions -- */
+
+.art_trans
+{
+	padding: 0.01%;
+	font-size: 25px;
+	width: 60%;
+	margin-left: 20%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10%;
+}
+
+.ttrans
+{
+	margin: 5% 12.5%;
+	padding: 2% 2%;
+	width: 75%;
+}
+
+.ttrans th, td
+{
+	padding: 2%;
+}
+
+.ttrans tr:first-child
+{
+	background-color: rgba(212, 208, 109, 0.7);
+}
+
+.ttrans tr td:first-child
+{
+	text-align: center;
+}
+
+.ttrans tr td:last-child
+{
+	text-align: right;
+}
+
+.ttrans tr:hover
+{
+	background-color: rgba(212, 208, 109, 0.7);
+}
+
+/* -- Transfer Money -- */
+
+.art_transfer
+{
+	width: 35%;
+	height: 464px;
+	margin-left: 32%;
+	
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10%;
+}
+
+form
+{
+	padding-left: 25%;
+	font-size: 25px;
+	margin-top: 8.5%;
+	padding-top: 13%;
+}
+
+.inputs
+{
+	font-size: 22px;
+}
+
+#transfer_button
+{
+	height: 43px;
+	width: 120px;
+	margin-left: 16%;
+	border-radius: 50px;
+	border: none;
+	background-color: rgba(212, 208, 109, 0.5);
+}
+
+#transfer_button:hover
+{
+	background-color: rgb(212, 208, 109);
+	border: 1px solid black;
+}
+
+#transfer_button:focus
+{
+	background-color: rgb(212, 208, 109);
+	border: 1px solid black;
+}
+
+/* -- General Styling Rules -- */
+
+footer
+{
+	background-color: #d4d06d;
+	height: 45px;
+
+}
+
+footer p
+{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
